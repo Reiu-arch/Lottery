@@ -35,7 +35,7 @@ public class PingPongBallFactory {
 		while (it.hasNext()) {
 			String key = it.next();
 			Integer val = labelList.get(key);
-			System.out.println(key + " - " + val);
+//			System.out.println(key + " - " + val);
 			balls.addAll(createPPB(key, val));
 		}
 		return balls;
